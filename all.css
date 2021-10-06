@@ -1,0 +1,247 @@
+h1,h2,h3,h4,h5{
+    font-family: 'Archivo Black', sans-serif;
+}
+p,a,input,span,ul,ol,li,textarea{
+    /* font-family: 'Noto Sans', sans-serif; */
+    font-family: 'Architects Daughter', cursive;
+}
+#intro .jumbotron{
+    /* 填滿不重複，上下置中，左右置中，滿版 */
+    background: url(./img/pacman_game.jpg) no-repeat center center /cover;
+    color: rgb(253, 247, 242);
+    height: 55vh;
+    margin-bottom: 0;
+}
+#intro h1{
+    font-size: 50px;
+    text-shadow: black 2px;
+}
+#intro p{
+    background-color:rgba(242,244,246,0.5);
+    /* opacity: 0.4; */
+    padding: 0px 20px;
+}
+#intro .btn{
+    background-color: rgba(187,222,214,1);
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 20%;
+}
+#intro .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+header nav img{
+    width: 70px;
+    height: 70px;
+}
+header{
+    width: 100%;
+    background-color: #f8f9fa!important;
+}
+header .navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0;
+}
+#second{
+    padding: 80px 0;
+}
+#second .container img{
+    width: 100%;
+}
+#second h3{
+    font-size: 28px;
+    line-height: 1.5;
+}
+#third{
+    background-color: #f8f9fa!important;
+}
+#third .container{
+    background-color: #f8f9fa!important;
+    padding: 80px 0;
+}
+#third h3{
+    font-size: 28px;
+    line-height: 1.5;
+    text-align: center;
+}
+#third .container h4{
+    color: #2c6baa;
+}
+#third ul{
+    list-style: none;
+}
+#third .content{
+    /* display: none; */
+    font-size: 16px;
+    font-family: 'Architects Daughter', cursive;
+    padding: 10px;
+    border-left: 1px solid rgb(50, 172, 172);
+    border-right: 1px solid rgb(50, 172, 172);
+    border-bottom: 1px solid rgb(50, 172, 172);
+}
+#third .title{
+    border-top:1px solid #f8f9fa!important;
+    padding: 10px;;
+    cursor: pointer;
+    background-color: rgb(50, 172, 172);   
+}
+#third .title h3{
+    color: aliceblue;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgb(50, 172, 172);
+    font-family: 'Architects Daughter', cursive;
+}
+#latest{
+    padding: 80px 0;
+    background-color: #fff;
+}
+#latest h3{
+    margin-bottom: 80px;
+}
+#latest .upper img{
+    width: 100%;
+    /* height: 250px; */
+}
+#latest .upper{
+    position: relative;
+}
+#latest .innertext{
+    position: absolute;
+    bottom: -34px;
+    left: 46px;
+}
+#latest .innertext span{
+    background-color: rgba(223, 140, 140, 0.7);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+#latest .innertext h4{
+    color: rgb(113, 163, 204);
+    margin-top: 5px;
+}
+#latest .lower h3{
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#latest .outer{
+    background-color: rgb(248, 248, 248);
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(248, 248, 248, 0.5);
+}
+#latest a{
+    color: rgb(158, 92, 92);
+}
+#latest a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#email{
+    margin-top: 80px;
+    background-color: rgb(181, 195, 202);
+}
+#email h3{
+    margin-bottom: 80px;
+}
+#email a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#email a:hover{
+    text-decoration: none;
+    color: rgb(119, 118, 118);
+}
+footer{
+    /* border-top: 1px solid #2c6baa; */
+    padding: 30px;
+}
+footer img{
+    width: 100%;
+    /* height: 200px; */
+}
+footer h4{
+    margin-bottom: 10px;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+footer li a{
+    color: #2c6baa;
+}
+footer li{
+    margin-bottom: 10px;
+}
+@media only screen and (max-width:768px){
+    #second img{
+        width: 100%;
+    }
+    footer img{
+        width: 100%;
+    }
+    #intro h1{
+        font-size: 30px;
+        text-shadow:rgb(44, 78, 189) 2px;
+    }
+}
+@media only screen and (max-width:1200px){
+    #latest .innertext{
+        display: none;
+    }
+}
+@media only screen and (max-width:1000px){
+    #intro .lead,.btn{
+        display: none;
+    }
+    #intro h1{
+        font-size: 50px;
+        text-shadow:rgb(44, 78, 189) 2px;
+    }
+}
+@media only screen and (max-width:375px){
+    #intro h1{
+        width: min-content;
+        font-size: 30px;
+        color: #aa2c41;
+        box-shadow:rgb(255, 255, 255) 4px;
+    }
+}
+
+.box{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    margin: 0px 10px;
+    /* background-color: green; */
+    border: 3px solid aliceblue;
+    border-radius: 50%;
+    animation: confuse 1s 1s infinite alternate-reverse;
+}
+/* animation: name動畫名稱 duration播放時間 timing-function延遲時間 delay速度 iteration-count次數 direction方向 fill-mode;填充方式 */
+@keyframes confuse{
+    0%{
+
+        border-radius: 50%;
+    }
+    100%{
+        border-radius: 0%;
+    }
+}
